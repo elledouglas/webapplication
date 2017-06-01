@@ -14,7 +14,7 @@ get '/about_me' do
 end
 
 get '/fav' do
-
+@fav_links = ['https://www.w3schools.com', 'https://www.w3schools.com']
 
   erb :fav
 end
